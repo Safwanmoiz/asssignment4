@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0px;
+            padding: 0px;
+        }
+
+        .main {
+            display: flex;
+            justify-content: space-between;
+        }
+        .m1:hover{
+            color:green;
+            text-decoration: underline;
+        }
+
+        .m1 {
+            /* border: 1px solid red; */
+            font-size: 25px;
+            margin-left: 30px;
+            color: gray;
+            text-decoration: underline;
+        }
+
+        .m1 i {
+            font-size: 20px;
+            padding-right: 40px;
+            padding-bottom: 4px;
+            color: black;
+        }
+
+        .m1 img {
+            position: relative;
+            top: 5px;
+            right: 4px;
+        }
+
+        .m2 {
+            /* border: 1px solid red; */
+            padding: 10px;
+
+
+
+        }
+
+        .m2 i {
+            /* border: 1px solid black; */
+            padding-right: 15px;
+            font-size: 20px;
+        }
+
+        .m3 {
+            border-bottom: 1px solid gray;
+        }
+
+        .main1 {
+            height: 600px;
+            width: 25%;
+            border-right: 1px solid rgb(95, 95, 95);
+            float: left;
+        }
+
+        .w1 p i {
+            font-size: 20px;
+            padding-left: 20px;
+            padding-right: 20px;
+            color: #3c4043;
+        }
+
+        .w1 p {
+            font-size: 24px;
+            padding-left: 16px;
+            padding-top: 20px;
+            color: #3c4043;
+            /* margin-top: 30px; */
+
+        }
+
+        .im {
+            font-size: 30px;
+            height: 30px;
+            width: 30px;
+            background-color: green;
+            color: white;
+            border-radius: 50%;
+            position: relative;
+            left: 31px;
+            top: 3px;
+            display: inline-block;
+        }
+
+        .iv {
+            font-size: 25px;
+            height: 30px;
+            width: 30px;
+            background-color: rgb(13, 0, 128);
+            color: white;
+            border-radius: 50%;
+            position: relative;
+            left: 31px;
+            top: 0px;
+            display: inline-block;
+            text-align: center;
+        }
+
+        .w1 span {
+            display: inline-block;
+            padding-left: 40px;
+            font-size: 23px;
+        }
+
+        .main2 {
+            width: 75%;
+            height: 600px;
+            /* border: 1px solid red; */
+            float: right;
+        }
+
+        .box1 {
+            margin-top: 20px;
+            width: 300px;
+            height: 300px;
+            border: 1px solid black;
+            display: inline-block;
+            margin-left: 20px;
+            border-radius: 10px;
+            background-image: url('https://www.gstatic.com/classroom/themes/img_bookclub.jpg');
+            background-size: 100%;
+            background-repeat: no-repeat;
+            background-position: top;
+            border: 1px solid grey;
+        }
+
+        .box2 {
+            border-radius: 10px;
+            /* border: none; */
+            margin-left: 20px;
+            margin-top: 20px;
+            width: 300px;
+            height: 300px;
+            border: 1px solid gray;
+            display: inline-block;
+            background-image: url('https://www.gstatic.com/classroom/themes/img_code.jpg');
+            background-size: 100%;
+            background-repeat: no-repeat;
+            background-position: top;
+            
+        }
+        .box1:hover{
+            box-shadow: 3px 4px 5px grey;
+        }
+        .box2:hover{
+            box-shadow: 3px 4px 5px grey;
+        }
+
+        .img1 {
+            border-radius: 50%;
+            position: relative;
+            left: 202px;
+            top: 37px;
+        }
+
+        .img2 {
+            border-radius: 50%;
+            position: relative;
+            top: 37px;
+            left: 202px;
+        }
+        .last{
+            padding-top: 10px;
+            text-align: right;
+            padding-right: 20px;
+            font-size: 20px;
+        }
+        .last i{
+            padding-right: 17px;
+        }
+        .h{
+            color: white;
+        }
+        .box1 p{
+            color: white;
+        }
+        .box2 p{
+            color: white;
+        }
+        .w1:hover{
+            box-sizing: border-box;
+            background-color: #91dff3;
+            border-radius:0px 20px 20px 0px ;
+            /* border: 0.5px solid blue; */
+            /* padding-bottom: 23px; */
+        }
+        
+    </style>
+
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="main">
+        <div class="m1"><i class="fa-solid fa-bars"></i><img width="28px" height="28px"
+                src="https://www.gstatic.com/classroom/logo_square_rounded.svg" alt="">Classroom</div>
+
+
+        <div class="m2"><i class="fa-solid fa-plus plus"></i><i class="fa-solid fa-grip"></i><i
+                class="fa-solid fa-at"></i>
+        </div>
+
+    </div>
+    <div class="m3">
+
+    </div>
+    <div class="main1">
+        <div class="w1">
+            <p><i class="fa-solid fa-house"></i>Home</p>
+        </div>
+        <div class="w1">
+            <p><i class="fa-regular fa-calendar"></i>Calender</p>
+        </div>
+        <br>
+        <hr>
+        <div class="w1">
+            <p><i class="fa-solid fa-graduation-cap"></i>Enrolled</p>
+        </div>
+        <div class="w1">
+            <p><i class="fa-regular fa-calendar-check"></i></i>To do</p>
+        </div>
+        <div class="w1">
+            <br>
+            <div class="im">W </div><span>Web and app Developm..</span>
+        </div>
+        <div class="w1">
+            <br>
+            <div class="iv">S </div><span>SMIT 007-WMA-2024</span>
+        </div>
+        <br>
+        <hr>
+        <div class="w1">
+            <p><i class="fa-solid fa-box-archive"></i>Archieved classes</p>
+        </div>
+        <div class="w1">
+            <p><i class="fa-solid fa-gear"></i>Settings</p>
+        </div>
+    </div>
+    <div class="main2">
+        <div class="box1">
+            <h2 class="h">Web and app development</h2>
+                <br>
+                
+                <p>Muhummad Rizwan Bhatti</p>
+            <img class="img1" width="" height=""
+                src="https://lh3.googleusercontent.com/a-/ALV-UjVdUBLPlJmTC5lrpptV3CkjsCEt1Q3VM_VSDwJogNr3-Mw=s75-c"
+                alt="">
+            <br><br><br>
+            <br><br><br><br>
+            <hr>
+            <div class="last"><i class="fa-solid fa-folder"></i></i>
+                <i class="fa-solid fa-user"></i></div>
+            
+        </div>
+    </div>
+</body>
+
+</html>
+             
